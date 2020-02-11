@@ -58,7 +58,7 @@ function checkWin() {
         if(row === board[x+1][y] && row === board[x+2][y] && row === board[x+3][y]) {
             alert (currentPlayer + " win");
         }
-        if(row === board[x+1][y+1] && row === board[x+1][y+2] && row === board[x+1][y+3]){
+        if(row === board[x+1][y+1] && row === board[x+2][y+2] && row === board[x+3][y+3]){
             alert (currentPlayer + " win");
         }  
         }}}
